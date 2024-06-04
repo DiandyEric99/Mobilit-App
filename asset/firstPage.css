@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+}
+.firstPage{
+    margin: auto;
+    border: 1px solid;
+    width: 300px;
+    margin-top: 50px;
+}
+.logo{
+    padding-top: 150px;
+    padding-left: 40px;
+}
+.totem{
+    padding-top: 100px;
+    padding-left: 40px;
+}

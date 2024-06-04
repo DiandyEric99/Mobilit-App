@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    display: flex;
+    background-color: rgb(233, 73, 15);
+    margin: auto;
+    height: 70px;
+    justify-content: space-between;
+    width: 400px;
+    background: linear-gradient(50deg);
+}
+h5 {
+    padding-top: 47px;
+    padding-left: 160px;
+    color: white;
+    font-weight: bold;
+}
+.troispoints {
+    padding-top: 43px;
+    padding-right: 10px;
+    font-size: larger;
+    color: white;
+}
+main {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: aliceblue;
+}
+.aucun {
+    margin: auto;
+    height: 700px;
+}
+.aucun h6{
+    margin-bottom: 250px;
+}
+.p1 {
+    padding-top: 300px;
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 50px;
+}
+.p2 {
+    padding-top: 30px;
+    font-style: normal;
+    font-size: small;
+    text-align: center;
+}
+h6 {
+    background-color: rgb(233, 73, 15);
+    text-align: center;
+    text-justify: auto;
+    height: 40px;
+    margin-top: 50px;
+    color: white;
+    border-radius: 6px;
+    width: 350px;
+}
+.ticket {
+    margin: auto;
+    width: 400px;
+    display: none;
+    height: 700px;
+}
+.p3 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.ticketAchete{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.p4{
+    margin-top: 20px;
+    text-align: center;
+    font-size: small;
+}
+.p5{
+    font-size: x-small;
+    text-align: center;
+}
+.panier{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+.ticket h6{
+    margin-top: 320px;
+    margin-left: 25px;
+}
+.ticketValide{
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 286px;
+    height: 182px;
+}
+.utilisation{
+    display: none;
+    height: 700px;
+}
+.utilisation h6{
+    margin-top: 320px;
+    margin-left: 25px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    height: 60px;
+}
