@@ -6,17 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/asset/firstPage.css">
+    <script>
+        function redirectionAuto (){
+            document.location.href = "http://127.0.0.1:5500/titles.html";
+        }
+    </script>
 </head>
 
-<body>
-    <main class="firstPage">
-        <div class="logo">
-            <img src="/img/Capture d’écran du 2024-06-03 00-00-38.png" alt="">
-        </div>
+<body onload="setTimeout('redirectionAuto()', 3000)">
 
-        <div class="totem">
-            <img src="/img/Capture d’écran du 2024-06-03 00-00-58.png" alt="">
-        </div>
+    <main class="firstPage">
+        
+            <img src="/img/Capture d’écran du 2024-06-03 00-00-38.png" alt="" class="logo">
+        
+
+        
+            <img src="/img/Capture d’écran du 2024-06-03 00-00-58.png" alt="" class="totem">
+
     </main>
 </body>
 
