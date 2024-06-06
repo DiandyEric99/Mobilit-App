@@ -4,12 +4,12 @@
 }
 header {
     display: flex;
-    background-color: rgb(233, 73, 15);
+    background-color: orangered;
     margin: auto;
     height: 70px;
     justify-content: space-between;
     width: 400px;
-    background: linear-gradient(50deg);
+    background: linear-gradient(to left rgb(192, 113, 84) orangered);
 }
 h5 {
     padding-top: 47px;
