@@ -1,0 +1,253 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    background-color: orangered;
+    margin: auto;
+    height: 70px;
+    justify-content: space-between;
+    width: 400px;
+    background: linear-gradient(to left rgb(192, 113, 84) orangered);
+}
+
+h5 {
+    padding-top: 47px;
+    margin-left: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.troispoints {
+    padding-top: 38px;
+    padding-right: 10px;
+    font-size: larger;
+    color: white;
+}
+
+.close {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-top: 45px;
+    margin-left: 10px;
+    font-size: x-large;
+}
+
+.previous {
+    display: none;
+    width: 20px;
+    height: 20px;
+    margin-top: 45px;
+    margin-left: 10px;
+    font-size: x-large;
+}
+
+.hamburger {
+    width: 20px;
+    height: 20px;
+    margin-top: 45px;
+    margin-right: -70px;
+}
+
+main {
+    margin: auto;
+    display: flex;
+    width: 400px;
+    background-color: aliceblue;
+    flex-direction: column;
+    height: 700px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.payment1 {
+    display: block;
+}
+.unite{
+    
+}
+.payment2 {
+    display: none;
+}
+
+.spanButton {
+    display: block;
+    margin-top: 438px;
+    width: 400px;
+    height: 100px;
+    border-radius: 9px;
+    box-shadow: -1em 0 .4em gray;
+}
+
+.spanButton p {
+    margin-left: 290px;
+}
+
+.spanButton button {
+    margin-top: 25px;
+    margin-left: 24px;
+    background-color: rgb(233, 73, 15);
+    height: 40px;
+    width: 350px;
+    border-radius: 6px;
+    color: white;
+}
+.payment3{
+    display: none;
+}
+.payment3 span {
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    height: 70px;
+    border-bottom-style: dashed;
+}
+
+.payment3 h6 {
+    font-size: medium;
+    margin-top: 20px
+}
+
+.payment3 span p {
+    font-size: small;
+    margin-top: 30px;
+    
+}
+
+.payment3 p {
+    font-size: xx-small;
+}
+
+.payment3 button {
+    margin-top: 450px;
+    margin-left: 24px;
+    background-color: rgb(233, 73, 15);
+    height: 40px;
+    width: 350px;
+    border-radius: 6px;
+    color: white;
+    filter: blur(1px);
+}
+.case{
+    width: 20px;
+    height: 20px;
+}
+.payment4{
+    display: none;
+}
+.payment4 span {
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    height: 70px;
+    border-bottom-style: dashed;
+}
+
+.payment4 h6 {
+    font-size: medium;
+    margin-top: 20px
+}
+.payment4 em{
+    font-size: medium;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.payment4 span p {
+    font-size: small;
+    margin-top: 30px;
+    
+}
+
+.payment4 p {
+    font-size: x-small;
+}
+
+.payment4 button {
+    margin-top: 450px;
+    margin-left: 24px;
+    background-color: rgb(233, 73, 15);
+    height: 40px;
+    width: 350px;
+    border-radius: 6px;
+    color: white;
+}
+.unvoyage {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    border-bottom: 1px solid rgb(243, 233, 233);
+    background-color: aliceblue;
+}
+
+.iconeAchat {
+    width: 34px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.moins {
+    width: 24px;
+    height: 24px;
+}
+
+.plus {
+    width: 24px;
+    height: 24px;
+}
+
+.unvoyage p {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.validite {
+    font-size: x-small;
+    text-align: center;
+}
+
+.unvoyage span {
+    flex-direction: column;
+    margin-left: 70px;
+    margin-top: 16px;
+}
+
+.dixVoyage {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    background-color: aliceblue;
+}
+
+.texte {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dixVoyage p {
+    margin-top: 20px;
+    margin-left: 9px;
+}
+
+#unEuro {
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.dixVoyage span {
+    flex-direction: column;
+    margin-left: 61px;
+    margin-top: 16px;
+}
+
+#neufEuro {
+    margin-top: 5px;
+    margin-left: 8px;
+}
