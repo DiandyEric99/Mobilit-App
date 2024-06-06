@@ -6,16 +6,20 @@ body{
     display: flex;
 }
 .firstPage{
+    display: flex;
     margin: auto;
-    border: 1px solid;
     width: 300px;
     margin-top: 50px;
+    border: 1px solid;
+    height: 700px;
 }
-.logo{
-    padding-top: 150px;
-    padding-left: 40px;
+img{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 .totem{
-    padding-top: 100px;
-    padding-left: 40px;
+    position: absolute;
+    bottom: 110px;
+    margin-left: 40px;
 }
