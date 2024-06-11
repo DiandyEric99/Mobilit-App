@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acheter un ticket</title>
     <link rel="stylesheet" href="asset/title.css">
+    <script src="asset/shopping.js" defer></script>
 </head>
 
 <body>
     <header>
+        <img src="img/icons8-fermer-64.png" alt="" class="close">
+        <img src="img/icons8-précédent-30.png" alt="" class="previous">
         <h5>E-Tickets</h5>
+        <img src="img/icons8-hamburger-50.png" alt="" class="hamburger">
         <p class="troispoints">...</p>
     </header>
     <main>
@@ -20,24 +24,201 @@
             <p class="p2">Vous pouvez acheter des titres pour voyager <br>
                 sur le réseau</p>
 
-                <a href="achat.html"><h6>Acheter des titres</h6></a>
+            <h6 class="nouveau">Acheter des titres</h6>
         </section>
 
         <section class="ticket">
             <p class="p3">SUR MON TELEPHONE</p>
             <img src="img/Capture d’écran du 2024-06-03 00-01-53.png" alt="" class="ticketAchete">
             <p class="p4">1 VOYAGE AIX EN BUS</p>
-                <p class="p5">1 |eticket disponible</p>
-                <a href=""><h6><img src="/img/icons8-panier-50.png" alt="" class="panier">Acheter des titres</h6></a>
+            <p class="p5">1 |eticket disponible</p>
+            <a href="">
+                <h6 class="nouvel"><img src="/img/icons8-panier-50.png" alt="" class="panier">Acheter des titres</h6>
+            </a>
+            <div class="useTicket">
+                <p>1 VOYAGE AIX EN BUS</p>
+                <i>1 voyage disponible</i> <br>
+                <em>Vous utilisez</em>
+                <select name="locomotive" id="locomotive">
+                    <option value="bus">bus</option>
+                    <option value="metro">metro</option>
+                    <option value="velo">vélo</option>
+                </select>
+                <button class="use">Utiliser</button>
+            </div>
+        </section>
+
+        <section class="usingTicket">
+            <strong>En cours d'utilisation</strong> <img src="img/icons8-compte-à-rebours-30.png" alt="">
+            <img src="img/Capture d’écran du 2024-06-03 00-01-53 (copie).png" alt="" class="ticketUtilise">
+            <p>Mes validations</p>
+            <mark>Aujourd'hui-Lundi 10juin</mark> <br>
+            <em>1 validation</em> <em id="countdown"></em> <br>
+            <p class="travel">1 VOYAGE AIX EN BUS</p>
+            <img src="img/question.png" alt="" class="question"> <i>Correspondance, accès au Métro, Contrôle</i>
+            <button class="controle">Métro ou Contrôle</button> <br>
+            <button class="correspondance">Prendre une correspondance</button>
+        </section>
+
+        <section class="payment1">
+            <div class="unvoyage">
+                <img src="img/Capture d’écran du 2024-06-03 00-03-42.png" alt="" class="iconeAchat">
+                <div class="texte">
+                    <p>1 VOYAGE AIX EN BUS</p>
+                    <em class="validite">valable 60 minutes</em>
+                </div>
+                <span>
+                    <img src="img/icons8-moins-24.png" alt="" class="moins">
+                    <em class="unite">0</em>
+                    <img src="img/icons8-plus-24.png" alt="" class="plus">
+                </span>
+            </div>
+
+            <div class="dixVoyage">
+                <img src="img/Capture d’écran du 2024-06-03 00-03-42.png" alt="" class="iconeAchat">
+                <div>
+                    <p>10 VOYAGES AIX EN BUS</p>
+                    <em class="validite">Valable 60 minutes sur Aix en bus <br>
+                        Multi-validable</em>
+                </div>
+                <span>
+                    <img src="img/icons8-moins-24.png" alt="" class="moins">
+                    <em>0</em>
+                    <img src="img/icons8-plus-24.png" alt="" class="plus">
+                    <p id="neufEuro">9,00 £</p>
+                </span>
+            </div>
+        </section>
+
+        <section class="payment2">
+            <div class="unvoyage">
+                <img src="img/Capture d’écran du 2024-06-03 00-03-42.png" alt="" class="iconeAchat">
+                <div class="texte">
+                    <p>1 VOYAGE AIX EN BUS</p>
+                    <em class="validite">valable 60 minutes</em>
+                </div>
+                <span>
+                    <img src="img/icons8-moins-24.png" alt="" class="moins">
+                    <i>1</i>
+                    <img src="img/icons8-plus-24.png" alt="" class="plus">
+                    <p id="unEuro">1,20 £</p>
+                </span>
+            </div>
+
+            <div class="dixVoyage">
+                <img src="img/Capture d’écran du 2024-06-03 00-03-42.png" alt="" class="iconeAchat">
+                <div>
+                    <p>10 VOYAGES AIX EN BUS</p>
+                    <p class="validite">Valable 60 minutes sur Aix en bus <br>
+                        Multi-validable</p>
+                </div>
+
+                <span>
+                    <img src="img/icons8-moins-24.png" alt="" class="moins">
+                    <i class="unite">0</i>
+                    <img src="img/icons8-plus-24.png" alt="" class="plus">
+                    <p id="neufEuro">9,00 £</p>
+                </span>
+            </div>
+
+            <span class="spanButton">
+                <p>Total: 1,20 £</p>
+                <button class="acheter">Acheter(1)</button>
+            </span>
+        </section>
+
+        <section class="payment3">
+            <span>
+                <h6>Total de la commande:</h6>
+                <h6>1,20 £</h6>
+            </span>
+            <span>
+                <p>1 VOYAGE AIX EN BUS</p>
+                <p>1 x 1,20 £</p>
+            </span>
+            <div>
+                <img src="img/icons8-case-à-cocher-non-cochée-32.png" alt="" class="case">
+                <i>J'ai lu et j'accepte les <a href="">conditions générales de vente</a></i>
+            </div>
+
+            <button>Payer</button>
+        </section>
+
+        <section class="payment4">
+            <span>
+                <h6>Total de la commande:</h6>
+                <em>1,20 £</em>
+            </span>
+            <span>
+                <p>1 VOYAGE AIX EN BUS</p>
+                <p>1 x 1,20 £</p>
+            </span>
+            <div>
+                <img src="img/icons8-case-cochée-16.png" alt="" class="case">
+                <i>J'ai lu et j'accepte les <a href="">conditions générales de vente</a></i>
+            </div>
+
+            <button class="payer">Payer</button>
+        </section>
+
+        <section class="pay">
+            <span><img src="img/Capture d’écran du 2024-06-06 14-24-06.png" alt="" class="logo">
+                <select name="langSelect" id="langSelect">
+                    <option value="Fr">FR</option>
+                    <option value="En">EN</option>
+                    <option value="Es">ES</option>
+                </select>
+            </span>
+
+            <em class="montant">Montant : 1,20 EUR</em>
+            <img src="img/icons8-menu-déroulant-48.png" alt="" class="derouler">
+
+            <div class="card">
+                <label for="cardNum" class="cardNum">Numéro de carte</label>
+                <input type="number" maxlength="16">
+                <img src="img/icons8-aide-24.png" alt="" class="aide">
+                <div class="bulle">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi velit.</p>
+                </div>
+            </div>
+            <span class="date">
+                <label for="expiration" class="expiration">Expire fin</label>
+                <input type="number" placeholder="Mois" maxlength="2" class="mois">
+                <input type="number" placeholder="Année" maxlength="4" class="annee">
+            </span>
+
+            <span class="cvv">
+                <label for="crypto" class="crypto">Cryptogramme visuel</label>
+                <input type="number" maxlength="3" class="crypto">
+                <img src="img/icons8-aide-24.png" alt="" class="aide">
+            </span>
+
+            <button type="button" class="submit">VALIDER</button>
+
+
+
+            <div>
+                <img src="img/Capture d’écran du 2024-06-03 00-07-03.png" alt="">
+                <img src="img/Capture d’écran du 2024-06-03 00-07-18.png" alt="">
+                <img src="img/Capture d’écran du 2024-06-03 00-07-29.png" alt="">
+
+            </div>
+            <i>Annuler et retourner à la boutique</i>
+
+
+
+            <span>
+                <img src="img/Capture d’écran du 2024-06-03 00-07-37.png" alt="">
+                <img src="img/Capture d’écran du 2024-06-03 00-07-43.png" alt="">
+            </span>
 
         </section>
 
-        <section class="utilisation">
-            <p class="p3">SUR MON TELEPHONE</p>
-            <img src="img/Capture d’écran du 2024-06-04 11-00-39.png" alt="" class="ticketValide">
-            <p class="p4">1 VOYAGE AIX EN BUS</p>
-            <a href=""></a><h6><img src="/img/icons8-panier-50.png" alt="" class="panier">Acheter des titres</h6></a>
+        <section class="paymentSuccess">
+            <img src="img/Capture d’écran du 2024-06-03 00-08-51.png" alt="">
+            <button class="fermerPayment">Fermer</button>
         </section>
+
 
 
 

@@ -67,9 +67,7 @@ main {
 .payment1 {
     display: block;
 }
-.unite{
-    
-}
+
 .payment2 {
     display: none;
 }
@@ -96,9 +94,11 @@ main {
     border-radius: 6px;
     color: white;
 }
-.payment3{
+
+.payment3 {
     display: none;
 }
+
 .payment3 span {
     display: flex;
     justify-content: space-around;
@@ -115,7 +115,7 @@ main {
 .payment3 span p {
     font-size: small;
     margin-top: 30px;
-    
+
 }
 
 .payment3 p {
@@ -132,13 +132,16 @@ main {
     color: white;
     filter: blur(1px);
 }
-.case{
+
+.case {
     width: 20px;
     height: 20px;
 }
-.payment4{
+
+.payment4 {
     display: none;
 }
+
 .payment4 span {
     display: flex;
     justify-content: space-around;
@@ -151,15 +154,17 @@ main {
     font-size: medium;
     margin-top: 20px
 }
-.payment4 em{
+
+.payment4 em {
     font-size: medium;
     margin-top: 20px;
     font-weight: bold;
 }
+
 .payment4 span p {
     font-size: small;
     margin-top: 30px;
-    
+
 }
 
 .payment4 p {
@@ -175,6 +180,7 @@ main {
     border-radius: 6px;
     color: white;
 }
+
 .unvoyage {
     display: flex;
     flex-direction: row;
@@ -250,4 +256,139 @@ main {
 #neufEuro {
     margin-top: 5px;
     margin-left: 8px;
+}
+
+.pay {
+    display: none;
+}
+
+.pay .logo {
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+.pay select {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+.pay span {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.pay div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+    height: 50px;
+}
+
+.pay .montant {
+    margin-left: 120px;
+    margin-top: px;
+}
+
+.pay em {
+    margin-right: 10px;
+}
+
+.pay .derouler {
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+.card {
+    align-items: flex-start;
+    margin-bottom: 20px;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 200px;
+}
+
+.card label {
+    margin-right: 40px;
+}
+
+.date {
+    display: block;
+    justify-content: space-around;
+}
+
+.date label {
+    position: absolute;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.mois {
+    width: 70px;
+    margin-top: 20px;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.annee {
+    width: 100px;
+    margin-top: 20px;
+    align-items: flex-start;
+    margin-right: 175px;
+}
+
+.crypto {
+    width: 60px;
+    margin-left: 10px;
+}
+
+.cvv {
+    display: block;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 5px;
+}
+
+.cvv label {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.pay button{
+    margin-top: 30px;
+    margin-left: 140px;
+    width: 120px;
+    height: 40px;
+    background: rgb(21, 112, 216);
+    border-radius: 5px;
+}
+.aide{
+    width: 20px;
+    height: 20px;
+}
+.bulle{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1000;
+    width: auto;
+    max-width: 150px;
+    min-height: 100px;
+    border: 1px solid black;
+    background: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+.bulle p{
+    margin: 0;
 }

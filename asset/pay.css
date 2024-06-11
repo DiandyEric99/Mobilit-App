@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    background-color: orangered;
+    margin: auto;
+    height: 70px;
+    justify-content: space-between;
+    width: 400px;
+    background: linear-gradient(to left rgb(192, 113, 84) orangered);   
+}
+h5 {
+    margin: auto;
+    margin-top: 50px;
+    color: white;
+    font-weight: bold;
+}
+.previous {
+    display: none;
+    width: 20px;
+    height: 20px;
+    margin-top: 45px;
+    margin-left: 10px;
+    font-size: x-large;
+}
+
+main {
+    margin: auto;
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    height: 700px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+}
+

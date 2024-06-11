@@ -17,6 +17,7 @@ h5 {
     color: white;
     font-weight: bold;
 }
+
 .troispoints {
     padding-top: 43px;
     padding-right: 10px;
@@ -73,6 +74,10 @@ h6 {
     margin-left: 60px;
     margin-top: 20px;
 }
+.ticketUtilise{
+    margin-left: 60px;
+    margin-top: 20px;
+}
 .p4{
     margin-top: 20px;
     text-align: center;
@@ -91,6 +96,76 @@ h6 {
     margin-top: 320px;
     margin-left: 25px;
 }
+.ticket strong{
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.chrono{
+    width: 20px;
+    height: 20px;
+
+}
+.useTicket{
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+    height: 355px;
+}
+.useTicket p{
+    margin-left: 35px;
+}
+.useTicket i{
+    margin-left: 35px;
+}
+.useTicket em{
+    display: block;
+    margin-left: 35px;
+    margin-top: 90px;
+}
+.useTicket select{
+    width: 80%;
+    margin-left: 35px;
+    height: 35px;
+    margin-top: 20px;
+}
+.useTicket button{
+    width: 80%;
+    margin-left: 35px;
+    margin-top: 30px;
+    height: 40px;
+    background-color: rgb(238, 65, 2);
+    border-radius: 5px;
+    color: white;
+}
+.usingTicket{
+    flex-direction: column;
+}
+.usingTicket mark{
+    margin-left: 20px;
+}
+.usingTicket strong{
+    margin-left: 100px;
+}
+.usingTicket p{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.travel{
+    justify-content: flex-start;
+}
+.usingTicket em {
+    margin-left: 20px;
+}
+.usingTicket button{
+    width: 80%;
+    margin-left: 35px;
+    margin-top: 30px;
+    height: 40px;
+    background-color: rgb(238, 65, 2);
+    border-radius: 5px;
+    color: white;
+}
 .ticketValide{
     margin-left: 60px;
     margin-top: 20px;
@@ -105,9 +180,407 @@ h6 {
     margin-top: 320px;
     margin-left: 25px;
 }
+.usingTicket{
+    display: none;
+}
+.usingTicket p{
+    margin-left: 130px;
+}
+.question{
+    width: 20px;
+    height: 20px;
+    margin-top: 150px;
+}
 footer{
     display: flex;
     justify-content: space-around;
     background-color: white;
     height: 60px;
+}
+.close {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-top: 45px;
+    margin-left: 10px;
+    font-size: x-large;
+}
+
+.previous {
+    display: none;
+    width: 20px;
+    height: 20px;
+    margin-top: 45px;
+    margin-left: 10px;
+    font-size: x-large;
+}
+
+.hamburger {
+    width: 20px;
+    height: 20px;
+    margin-top: 45px;
+    margin-right: -70px;
+}
+
+main {
+    margin: auto;
+    display: flex;
+    width: 400px;
+    background-color: aliceblue;
+    flex-direction: column;
+    height: 700px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.payment1 {
+    display: none;
+}
+
+.payment2 {
+    display: none;
+}
+
+.spanButton {
+    display: block;
+    margin-top: 438px;
+    width: 400px;
+    height: 100px;
+    border-radius: 9px;
+    box-shadow: -1em 0 .4em gray;
+}
+
+.spanButton p {
+    margin-left: 290px;
+}
+
+.spanButton button {
+    margin-top: 25px;
+    margin-left: 24px;
+    background-color: rgb(233, 73, 15);
+    height: 40px;
+    width: 350px;
+    border-radius: 6px;
+    color: white;
+}
+
+.payment3 {
+    display: none;
+}
+
+.payment3 span {
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    height: 70px;
+    border-bottom-style: dashed;
+}
+
+.payment3 h6 {
+    font-size: medium;
+    margin-top: 20px
+}
+
+.payment3 span p {
+    font-size: small;
+    margin-top: 30px;
+
+}
+
+.payment3 p {
+    font-size: xx-small;
+}
+
+.payment3 button {
+    margin-top: 450px;
+    margin-left: 24px;
+    background-color: rgb(233, 73, 15);
+    height: 40px;
+    width: 350px;
+    border-radius: 6px;
+    color: white;
+    filter: blur(1px);
+}
+
+.case {
+    width: 20px;
+    height: 20px;
+}
+
+.payment4 {
+    display: none;
+}
+
+.payment4 span {
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    height: 70px;
+    border-bottom-style: dashed;
+}
+
+.payment4 h6 {
+    font-size: medium;
+    margin-top: 20px
+}
+
+.payment4 em {
+    font-size: medium;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.payment4 span p {
+    font-size: small;
+    margin-top: 30px;
+
+}
+
+.payment4 p {
+    font-size: x-small;
+}
+
+.payment4 button {
+    margin-top: 450px;
+    margin-left: 24px;
+    background-color: rgb(233, 73, 15);
+    height: 40px;
+    width: 350px;
+    border-radius: 6px;
+    color: white;
+}
+
+.unvoyage {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    border-bottom: 1px solid rgb(243, 233, 233);
+    background-color: aliceblue;
+}
+
+.iconeAchat {
+    width: 34px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.moins {
+    width: 24px;
+    height: 24px;
+}
+
+.plus {
+    width: 24px;
+    height: 24px;
+}
+
+.unvoyage p {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.validite {
+    font-size: x-small;
+    text-align: center;
+}
+
+.unvoyage span {
+    flex-direction: column;
+    margin-left: 70px;
+    margin-top: 16px;
+}
+
+.dixVoyage {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    background-color: aliceblue;
+}
+
+.texte {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dixVoyage p {
+    margin-top: 20px;
+    margin-left: 9px;
+}
+
+#unEuro {
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.dixVoyage span {
+    flex-direction: column;
+    margin-left: 61px;
+    margin-top: 16px;
+}
+
+#neufEuro {
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.pay {
+    display: none;
+}
+
+.pay .logo {
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+.pay select {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+.pay span {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.pay div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+    height: 50px;
+}
+
+.pay .montant {
+    margin-left: 120px;
+    margin-top: px;
+}
+
+.pay em {
+    margin-right: 10px;
+}
+
+.pay .derouler {
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+.card {
+    align-items: flex-start;
+    margin-bottom: 20px;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 200px;
+}
+
+.card label {
+    margin-right: 40px;
+}
+
+.date {
+    display: block;
+    justify-content: space-around;
+}
+
+.date label {
+    position: absolute;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.mois {
+    width: 70px;
+    margin-top: 20px;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.annee {
+    width: 100px;
+    margin-top: 20px;
+    align-items: flex-start;
+    margin-right: 175px;
+}
+
+.crypto {
+    width: 60px;
+    margin-left: 10px;
+}
+
+.cvv {
+    display: block;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 5px;
+}
+
+.cvv label {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.pay button{
+    margin-top: 30px;
+    margin-left: 140px;
+    width: 120px;
+    height: 40px;
+    background: rgb(21, 112, 216);
+    border-radius: 5px;
+}
+.aide{
+    width: 20px;
+    height: 20px;
+}
+.bulle{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1000;
+    width: auto;
+    max-width: 150px;
+    min-height: 100px;
+    border: 1px solid black;
+    background: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+.bulle p{
+    margin: 0;
+}
+.paymentSuccess{
+    display: none;
+}
+.paymentSuccess img{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+footer{
+    display: none;
+}
+.fermerPayment{
+    margin-top: 350px;
+    margin-left: 24px;
+    background-color: rgb(233, 73, 15);
+    height: 40px;
+    width: 350px;
+    border-radius: 6px;
+    color: white;
 }
